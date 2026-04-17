@@ -37,6 +37,25 @@ Com base nos dados obtidos, selecione uma prática ou dado de teste relevante e 
 
 ## Respostas
 
-**1. Repositório selecionado:** `<URL_DO_REPOSITÓRIO_AQUI>`
+**1. Repositório selecionado:** (https://github.com/pydantic/pydantic)
 
-**2. Explicação:** `<SUA_EXPLICAÇÃO_AQUI>`
+**2. Explicação:**
+Os teste utilizados no repositório do pydantic utilizam a funcionalidade de "parametrize" do pytest. Com esse recurso, é possível refazer o mesmo teste com diferentes conjuntos de dados. No primeiro exemplo, foram definidos diversos conjuntos com uma entrada e a saída esperada, enquanto no segundo caso foram definidos vários valores para a instanciação de uma classe. Nas duas situações, o uso do parametrize tornou o teste muito mais enxuto e abrangente.
+
+<img 
+  width="440" 
+  height="704" 
+  alt="image" 
+  src="https://github.com/user-attachments/assets/a74bc73c-12e6-4a2c-a411-fcfc1372a7d1"
+  style="border: 2px solid #000; border-radius: 8px;" 
+/>
+____________________________
+<img 
+  width="487" 
+  height="515" 
+  alt="image" 
+  src="https://github.com/user-attachments/assets/6d3cc017-fcab-45d3-bc53-892cd898add1"
+  style="border: 2px solid #000; border-radius: 8px;" 
+/>
+
+
